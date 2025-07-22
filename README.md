@@ -2,6 +2,10 @@
 
 AI-Powered Smart Contract Analyzer with comprehensive multi-page interface and interactive features.
 
+## 📄 Project Summary  
+[Project Summary](https://drive.google.com/file/d/1tQvxPmFP_b-w2Soy--xnnuxl9kE979xn/view?usp=sharing)
+
+
 ## 🚀 Quick Start (Local Development)
 
 ### Prerequisites
@@ -80,24 +84,12 @@ smartscribe-multipage/
 - ✅ Interactive AI chat Q&A
 - ✅ Voice features (speech synthesis & recognition)
 - ✅ PDF report generation
-- ✅ MetaMask integration
-- ✅ Responsive design
 
 ### Interactive Features
 - 🎤 Voice input for questions
 - 🗣️ Text-to-speech for summaries
 - 💬 AI-powered chat interface
 - 📄 Downloadable PDF reports
-- 🔗 MetaMask wallet connection
-- 📱 Mobile-responsive design
-
-## 🎨 User Interface
-
-### Navigation
-- Sticky navigation bar with page links
-- Mobile-responsive hamburger menu
-- Active page highlighting
-- Smooth transitions
 
 ### Pages Overview
 
@@ -155,8 +147,6 @@ npm start
 GROQ_API_KEY=your_groq_api_key_here
 ETHERSCAN_API_KEY=your_etherscan_api_key_here
 
-# Optional Configuration
-NEXT_PUBLIC_APP_URL=http://localhost:3000
 \`\`\`
 
 ### API Endpoints
@@ -164,18 +154,6 @@ NEXT_PUBLIC_APP_URL=http://localhost:3000
 - `POST /api/ask` - AI chat Q&A
 - `POST /api/test` - Test API connectivity
 
-## 🌐 Deployment
-
-### Vercel (Recommended)
-1. Push code to GitHub
-2. Connect repository to Vercel
-3. Add environment variables in Vercel dashboard
-4. Deploy automatically
-
-### Other Platforms
-- **Railway**: Connect GitHub repo and deploy
-- **Render**: Set build/start commands and environment variables
-- **Netlify**: Configure build settings for Next.js
 
 ## 🔑 API Keys Required
 
@@ -187,13 +165,6 @@ NEXT_PUBLIC_APP_URL=http://localhost:3000
    - Used for fetching verified contract source code
    - Required for address-based analysis
 
-## 📱 Mobile Support
-
-The application is fully responsive and works on:
-- Desktop computers
-- Tablets
-- Mobile phones
-- All modern browsers
 
 ## 🛡️ Security Features
 
@@ -210,21 +181,6 @@ The application is fully responsive and works on:
 - **Security Researchers**: Identify vulnerabilities
 - **General Users**: Understand smart contract risks
 
-## 📊 Analytics & Monitoring
-
-The application includes:
-- Error tracking and logging
-- Performance monitoring
-- User interaction analytics
-- API usage statistics
-
-## 🔄 Updates & Maintenance
-
-- Regular AI model updates
-- Security pattern database updates
-- UI/UX improvements
-- New feature additions
-
 ## 📞 Support
 
 For issues or questions:
@@ -232,15 +188,3 @@ For issues or questions:
 2. Review example contracts for guidance
 3. Ensure API keys are correctly configured
 4. Check browser console for error messages
-
-## 🎉 Getting Started
-
-1. **Clone the repository**
-2. **Install dependencies**: `npm install`
-3. **Set up environment variables**
-4. **Start development server**: `npm run dev`
-5. **Visit http://localhost:3000**
-6. **Explore the multi-page interface**
-7. **Try analyzing a demo contract**
-
-The application is now ready for local development and testing!
