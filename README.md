@@ -184,7 +184,7 @@ ETHERSCAN_API_KEY=your_etherscan_api_key_here
 ## 📞 Support
 
 For issues or questions:
-1. Check the FAQ in the "How to Use" section
+1. Visit the “How to Use” page in the app
 2. Review example contracts for guidance
 3. Ensure API keys are correctly configured
 4. Check browser console for error messages
